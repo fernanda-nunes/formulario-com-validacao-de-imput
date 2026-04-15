@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.page {
+    width: 800px;
+    height: 402px;
+    opacity: 1; 
+    background-image: url(../imagem/bg-repeat.jpg);
+    position: relative;
+    display: flex;
+    align-items: center;
+   }
+
+ .page .info {
+    min-width: 300px;
+    min-height: 111px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    margin-left: 50px;
+ }
+
+ .page .info h1 {
+    margin-bottom: 11px;
+    font-weight: 900;
+    font-size: 20px;
+    position: relative;
+}
+
+.page .info p {
+    width: 300px;
+    height: 54px;
+    font-size: 15px;
+    font-weight: 400; 
+    position: relative;
+}
+
+ .page .form {
+    display: block;
+    width: 340px;
+    height: 378px;
+    position: absolute;
+    margin: 12px 50px 12px 410px;
+    background: rgba(255, 255, 255, 1);
+}
+
+ .page .form .inputs .item {
+    position: relative;
+    height: 35px;
+    width: 298px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin-left: 21px;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 15px; 
+    font-weight: 400;
+    line-height: 100%;   
+}
+
+.page .form .inputs .item ::placeholder {
+    color: rgba(168, 168, 168, 1);
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.page .form .inputs .textarea {
+    position: relative;
+    min-height: 100px;
+    min-height: 100px;
+    margin-left: 21px;
+    padding-left: 9px;
+    padding-top: 8px;
+}
+
+.page .form .inputs .textarea::placeholder{
+    color: rgba(168, 168, 168, 1);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.mensagem {
+    min-width: 66;
+    min-height: 9;
+    font-weight: 400;
+    font-size: 8px;
+    color: rgba(245, 46, 46, 1);
+    margin-left: 22px;
+    margin-top: 2px;
+    display: none;
+}
+
+.form .obrigatorios {
+   position: relative;
+   margin-left: 15px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 100%;
+}
+
+.form button {
+    position: relative;
+    width: 299px;
+    height: 41px;
+    border-radius: 5px;
+    border-color: rgba(60, 204, 135, 1);
+    background: rgba(60, 204, 135, 1);
+    margin-left: 22px;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.campo-preenchido {
+    border: 1px solid rgba(0, 194, 43, 1) !important;
+}
+
+.campo-vazio {
+    border: 1px solid rgba(245, 46, 46, 1) !important;
+ } 
+
+.campo-vazio + .mensagem {
+    display: block;
+    position: absolute;
+}
