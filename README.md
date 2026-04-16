@@ -27,7 +27,7 @@ Preview com validação: <br>
 ### Links 
 <ul>
 <li><a href="https://github.com/fernanda-nunes/formulario-com-validacao-de-imput/" target="_blank">Repositórios</a></li>
-<li><a href="https://fernanda-nunes.github.io/formulario-com-validacao-de-imput/" target="_blank">Site ao vivo</a></li>
+<li><a href="https://fernanda-nunes.github.io/formulario-com-validacao-de-input/" target="_blank">Site ao vivo</a></li>
 </ul>
 
 ## O que eu aprendi 
