@@ -1,6 +1,6 @@
 # Formulário com validação de input
 
-<p><b>Esta é uma solução para o desafio do módulo de JavaScrip intermediário do curso DevQuest.</b></p>
+<p><b>Esta é uma solução para o desafio do módulo de JavaScrip intermediário, proposto do curso DevQuest.</b></p>
 
 ## Visão Geral 
 
@@ -9,20 +9,19 @@
 
 ###  Desafio
 
-<b>O desafio consiste em construir uma página de formulário a partir dos designs e funcionalidades fornecidas. 
-Ao clicar no botão para enviar o formulário, a borda dos inputs altera de cor. dependendo do valor do imput. 
+<b>O desafio consiste em construir uma página de formulário a partir dos designs e funcionalidades fornecidas. E ao clicar no botão para enviar, é feita a validação do preenchimento do input alterando a cor da borda.
 
 ### Funcionalidades 
 <ul>
-<li>Ao clicar no botão para enviar o formulário, a cor da borda do imput altera, dependendo do preenchimento. Se todos os inputs estiverem preenchedos, a borda muda para a cor verde ou se caso algum dos inputs estiver vazio, altera para vermelha e uma mensagem de "campo obrigatório" aparece embaixo do input.
+<li>Ao clicar no botão para enviar o formulário, é feita a validação dos inpúts e a cor da borda altera dependendo do preenchimento. Se o input estiver preenchedo, a borda muda para a cor verde e  se caso algum dos inputs estiver vazio, altera para a cor vermelha e uma mensagem de "campo obrigatório" aparece embaixo do input.
 </ul>
 
 ### Capturas de tela 
 
 Preview: <br>
-<img src="./src/imagem/Preview.png" alt="Preview" width="100%"> <br>
+<img src="./src/imagem/Preview.png" alt="Preview" width="80%"> <br>
 Preview com validação: <br>
-<img src="./src/imagem/Preview-validação.png" alt="Preview com a validação" width="100%">
+<img src="./src/imagem/Preview-validação.png" alt="Preview com a validação" width="80%">
 <br>
 
 ### Links 
